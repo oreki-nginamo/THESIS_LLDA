@@ -1,0 +1,120 @@
+/* Sticky Footer Setup */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.home-main{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 150px; /* Add space between content and footer */
+}
+
+/* Footer */
+.enhanced-footer {
+  background-color: #bfd28e;
+  color: #333;
+  padding: 20px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+
+/* Left Section: Footer Title and Social Icons */
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333; /* Darker text color */
+  margin-bottom: 10px;
+}
+
+.footer-left a {
+  margin-right: 10px;
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-left a:hover {
+  transform: scale(1.1); /* Enlarge icons on hover */
+  opacity: 0.8; /* Slight transparency effect */
+}
+
+.footer-left img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Center Section: Research Proponents */
+.footer-center {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-center p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* Right Section: Copyright */
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer-right p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+      margin-bottom: 15px;
+  }
+
+  .footer-left {
+      text-align: center;
+  }
+
+  .footer-right {
+      text-align: center;
+  }
+}

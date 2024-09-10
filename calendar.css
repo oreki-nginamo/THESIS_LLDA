@@ -1,0 +1,130 @@
+/* General styling for the form container */
+.form-container {
+    background-color: #fff;
+    padding: 30px 40px;
+    margin: 30px 0; /* Remove auto centering by adjusting margins */
+    margin-top: 7.5%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px; /* Set a fixed width */
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 20px; /* Move the form to the left side */
+}
+
+/* Button container */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Form styling for date input */
+.form-container form {
+    width: 100%;
+}
+
+.form-container label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+.form-container input[type="date"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-container input[type="submit"] {
+    background-color: #1B7019;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #155614;
+}
+
+
+
+
+/* responsive styles
+@media (max-width: 1680px) {
+    .form-container {
+        background-color: #fff;
+        padding: 30px 40px;
+        position: relative;
+        margin: 30px;
+        top: 110px;
+        left: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .form-container {
+        background-color: #fff;
+        padding: 30px 40px;
+        position: relative;
+        margin: 30px;
+        top: 110px;
+        left: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 320px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .form-container {
+        background-color: #fff;
+        padding: 30px 40px;
+        position: relative;
+        margin: 30px;
+        top: 110px;
+        left: 40px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .form-container {
+        background-color: #fff;
+        padding: 30px 40px;
+        position: relative;
+        margin: 30px;
+        top: 110px;
+        left: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 250px;
+        height: 200px;
+    }
+}*/

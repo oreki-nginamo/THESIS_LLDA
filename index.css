@@ -1,0 +1,251 @@
+.button {
+  box-shadow: var(--button-shadow);
+  border-radius: 8px;
+  background-color: #1b7019;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  cursor: pointer;
+  font-size: var(--small-text-size);
+  color: #fff;
+}
+
+.items {
+  position: absolute;
+  top: 56px;
+  right: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.updated-logo-v5-no-bilog-1 {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 264px);
+  width: 527px;
+  height: 73px;
+  object-fit: cover;
+}
+
+.llda-logo-2 {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 400px);
+  width: 131px;
+  height: 128px;
+  object-fit: cover;
+}
+
+.bagong-pinas-1 {
+  position: absolute;
+  top: 19px;
+  left: calc(50% + 250px);
+  width: 167.3px;
+  height: 128px;
+  object-fit: cover;
+
+}
+
+.header-navigation {
+  width: 100%;
+  position: relative;
+  background-color: #bfd28e;
+  height: 164px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: #fff;
+  font-family: var(--small-text);
+}
+
+/* home page content*/
+.laguna-lake-from-llda-1 {
+  position: absolute;
+  top: 22.39px;
+  left: calc(50% - 399.35px);
+  width: 606.4px;
+  height: 632.2px;
+  object-fit: contain;
+}
+
+.legend {
+  position: absolute;
+  top: 22px;
+  left: 606.72px;
+  line-height: 150%;
+  font-weight: 500;
+  color: black;
+}
+
+.laguna-lake-stations {
+  position: absolute;
+  top: 69px;
+  left: 633.72px;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  font-weight: 500;
+  color: black;
+}
+
+.tributary-rivers-stations {
+  position: absolute;
+  top: 93px;
+  left: 633.72px;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  font-weight: 500;
+  color: black;
+}
+
+.legend-1-icon {
+  position: absolute;
+  top: 71px;
+  left: 609.72px;
+  width: 17px;
+  height: 17px;
+
+}
+
+.legend-2-icon {
+  position: absolute;
+  top: 95px;
+  left: 609.72px;
+  width: 17px;
+  height: 17px;
+}
+
+.view-quarterly-report {
+  position: absolute;
+  top: 0px;
+  left: 180px;
+  line-height: 150%;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  color: black;
+}
+
+.home-page-frame {
+  width: 798.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 193px;
+  left: calc(50% - 308px);
+  height: 654.6px;
+  z-index: 2;
+}
+
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 1060px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+
+.home {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.status {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.log-out {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.items {
+  width: 100%;
+  position: relative;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 28px;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+
+
+/* responsive styles*/
+@media (max-width: 1440px) {
+  .updated-logo-v5-no-bilog-1 {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 300px);
+    width: 527px;
+    height: 73px;
+    object-fit: cover;
+  }
+  
+  .llda-logo-2 {
+    position: absolute;
+    top: 24px;
+    left: calc(50% - 436px);
+    width: 131px;
+    height: 128px;
+    object-fit: cover;
+  }
+  .bagong-pinas-1{
+    position: absolute;
+    top: 24px;
+    left: calc(50% + 235px);
+    width: 131px;
+    height: 128px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 1400px) {
+  .updated-logo-v5-no-bilog-1 {
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 315px);
+    width: 527px;
+    height: 73px;
+    object-fit: cover;
+  }
+  
+  .llda-logo-2 {
+    position: absolute;
+    top: 24px;
+    left: calc(50% - 449px);
+    width: 131px;
+    height: 128px;
+    object-fit: cover;
+  }
+  .bagong-pinas-1{
+    position: absolute;
+    top: 24px;
+    left: calc(50% + 220px);
+    width: 131px;
+    height: 128px;
+    object-fit: cover;
+  }
+}
